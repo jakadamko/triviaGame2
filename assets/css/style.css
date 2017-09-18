@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "akbar";
+    src: url("../font/Akbar/GABRWFFR.TTF");
+}
+
+.jumbotron {
+    font-family: akbar;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: grey;
+    font-size: 23px;
+    opacity: 0.90;
+    filter: alpha(opacity=90);
+    /* For IE8 and earlier */
+}
+
+br {
+    padding: 30px;
+    line-height: 65px;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    background-size:cover
+}
+
+
+
+#display {
+    border: grey solid 2px;
+    font-size: 30px;
+    margin-left: 42%;
+}
+
+.jumbotron p {
+    font-size: 35px;
+    color: #51cdf6;
+}

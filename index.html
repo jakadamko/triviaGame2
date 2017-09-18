@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SimpsonsTrivia</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+<div class="container">
+    <div class="row">
+        <div class="jumbotron">
+            <h1>Friends Trivia</h1>
+            <button type="button" class="btn btn-secondary btn-lg" id="startGame">Start Game</button>
+            <div class="questions">
+                <br>
+                <div class="col-md-2" id="display">00:00</div>
+                <br>
+                <div>
+                    <p>
+                        Which Friend has Joey never kissed ?</p>
+                    <input id="answer" type="radio" name="Q1" value="male">Monica
+                    <input id="incorr" type="radio" name="Q1" value="female">Rachel
+                    <input id="incorr" type="radio" name="Q1" value="other">Phoebe
+                    <input id="incorr" type="radio" name="Q1" value="other">Ross
+                    <br>
+                </div>
+                <br>
+                <div>
+                    <p>What is the first wedding present Monica opens ?</p>
+                    <input id="incorr" type="radio" name="Q2" value="male">China
+                    <input id="incorr" type="radio" name="Q2" value="female">Money
+                    <input id="answer" type="radio" name="Q2" value="other">A tiny salt shaker
+                    <input id="incorr" type="radio" name="Q2" value="other">Matching Watches
+                </div>
+                <br>
+                <div>
+                    <p>In the last episode how many babies do chandler and Monica have</p>
+                    <input id="incorr" type="radio" name="Q3" value="male">0
+                    <input id="incorr" type="radio" name="Q3" value="female">1
+                    <input id="answer" type="radio" name="Q3" value="other">2
+                    <input id="incorr" type="radio" name="Q3" value="other">3
+                </div>
+                <br>
+                <div>
+                    <p>What is Rachel's middle name ?</p>
+                    <input id="answer" type="radio" name="Q4" value="male">Karen
+                    <input id="incorr" type="radio" name="Q4" value="female">Sandra
+                    <input id="incorr" type="radio" name="Q4" value="other">Heather
+                    <input id="incorr" type="radio" name="Q4" value="other">Elsa
+                </div>
+                <br>
+                <div>
+                    <p>Who did Joey name Stevie ?</p>
+                    <input id="incorr" type="radio" name="Q5" value="male">The microwave
+                    <input id="answer" type="radio" name="Q5" value="female">Television
+                    <input id="incorr" type="radio" name="Q5" value="other">Computer
+                    <input id="incorr" type="radio" name="Q5" value="other">Fridge
+                </div>
+                <br>
+                <div>
+                    <p>Who called Monica fat ?</p>
+                    <input id="incorr" type="radio" name="Q6" value="male">Rachel
+                    <input id="incorr" type="radio" name="Q6" value="female">Ross
+                    <input id="incorr" type="radio" name="Q6" value="other">Phoebe
+                    <input id="answer" type="radio" name="Q6" value="other">Chandler
+                </div>
+                <br>
+                <div>
+                    <p>In the very first episode what is Rachel wearing</p>
+                    <input id="incorr" type="radio" name="Q7" value="male">Cheer-leading outfit
+                    <input id="answer" type="radio" name="Q7" value="female">Wedding dress
+                    <input id="incorr" type="radio" name="Q7" value="other">Jersey
+                    <input id="incorr" type="radio" name="Q7" value="other">Sweats
+                </div>
+                <br>
+                <div>
+                    <p>Who gets married in Las Vegas ?</p>
+                    <input id="incorr" type="radio" name="Q8" value="male">Ross and Phoebe
+                    <input id="incorr" type="radio" name="Q8" value="female">Monica and Chandler
+                    <input id="answer" type="radio" name="Q8" value="other">Ross and Rachel
+                    <input id="incorr" type="radio" name="Q8" value="other">Joey and Phoebe
+                </div>
+                <br>
+                <div>
+                    <p>Who thought that when you were married in Las Vegas you were only married there ?</p>
+                    <input id="incorr" type="radio" name="Q9" value="male">Monica
+                    <input id="incorr" type="radio" name="Q9" value="female">Ross
+                    <input id="incorr" type="radio" name="Q9" value="female">Rachel
+                    <input id="answer" type="radio" name="Q9" value="female">Phoebe
+                </div>
+                <br>
+                <div>
+                    <p>What was not a name of one the triplets Phoebe had ?</p>
+                    <input id="incorr" type="radio" name="Q10" value="male">Frank Jr. Jr.
+                    <input id="incorr" type="radio" name="Q10" value="female">Leslie
+                    <input id="answer" type="radio" name="Q10" value="other">Joey
+                    <input id="incorr" type="radio" name="Q10" value="other">Chandler
+                </div>
+                <br>
+                <button type="button" class="btn btn-secondary btn-lg" id="done">Done</button>
+            </div>
+            <div class="score">
+                <H2>Times Up!</H2>
+                <p id="correct">CORRECT: 0</p>
+                <p id="incorrect">INCORRECT: 0</p>
+                <p id="unanswered">UNANSWERED: 0</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
